@@ -8,6 +8,7 @@ export const ACELADORES = {
 const CARNES_E_PEIXES = {
 
 	category: 'Carnes e Peixes',
+	icon: 'fas fa-space-shuttle',
 	items: [
 		{
 			name: 'Anchovas'
@@ -47,21 +48,6 @@ const CARNES_E_PEIXES = {
 
 
 
-name: 'Pepino'
-
-name: 'Pimentão'
-
-name: 'Rabanete'
-
-name: 'Repolho'
-
-name: 'Rúcula'
-
-name: 'Tomates'
-
-name: 'Vagem'
-
-name: 'Zucchini'
 
 
 
@@ -243,12 +229,40 @@ const LEGUMES_E_TUBERCULOS = {
 		{
 			name: 'Gengibre'
 		},
+
+		{ name: 'Pepino' },
+
+		{ name: 'Pimentão' },
+
+		{ name: 'Rabanete' },
+
+		{ name: 'Repolho' },
+
+		{ name: 'Rúcula' },
+
+		{ name: 'Tomates' },
+
+		{ name: 'Vagem' },
+
+		{ name: 'Zucchini' }
+
 	]
 
 }
 
+const OVOS_E_LACTICINIOS = {
 
- 
+	category: 'Ovos e Laticínios',
+	items: [
+		{
+			name: 'Leite de côco (Não é laticínio)'
+		},
+		{name: 'Ovos (clara e gema)'}
+
+	]
+
+}
+
 
 const XX = {
 	category: '',
@@ -260,32 +274,79 @@ const XX = {
 	]
 }
 
-£) GORDURAS E ÓLEOS  Pasta de amendoim
-f# OVOS E LATICÍNIOS
-Leite de côco(não é laticínio) Ovos(clara e gema)	GRÃOS E CEREAIS  Arroz branco
-Arroz integral
-$ BEBIDAS E ADOÇANTES	Arroz selvagem
-Água com gás(natural) Brodo(frango, peixe, gado) Café Preto	w LEGUMES E TUBÉRCULOS  Abóbora
-Café com leite / óleo de côco	Banana verde(de cozinhar)
-Café com manteiga Chá(todos)  Chá gelado(sem açúcar / adoçante)  Kefir  Suco verde(sem adoçar)	Batata doce Batata inglesa Grão de bico Inhame Mandioca  Tapioca(mandioca) Taro
-í > NOZES, SEMENTES E AFINS
-Gergelim	¥ BEBIDAS E ADOÇANTES
-Tilápia  Truta	Linhaça  Semente de abóbora	Água de côco Leite de amêndoas
-Semente de chia	Suco de fruta naturalfrecémfeito)
-& GORDURAS E ÓLEOS	Semente de girassol
-		í > NOZES, SEMENTES E AFINS  Amêndoa
 
+const XX = {
+	category: '',
+	items: [
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
 
+	]
+}
 
+  
+const BEBIDAS_E_ADOCANTES = {
+	category: 'Bebidas e Adoçantes',
+	items: [
+		{name: 'Água com gás(natural)'},
+		{name: 'Brodo(frango, peixe, gado)'},
+		{name: 'Café Preto'},
+		{name: 'Café com manteiga'},
+		{name: 'Chá (todos)'},
+		{name: 'Chá gelado (sem açucar/adoçante)'},
+		{name: 'Kefir'},
+		{name: 'Suco verde (sem adoçar)'}
+
+	]
 }
 
 
-{
+
+const NOZES_SEMENTES_E_AFINS = {
+	category: 'Nozes, Sementes e Afins',
+	items: [
+		{name: 'Gergelim'},
+		{name: 'Linhaça'},
+		{name: 'Semente de abóbora'},
+		{name: 'Semente de chia'},
+		{name: 'Semente de girassol'}
+	]
+}
 
 
-} # FRUTAS
 
-Banha de porco	Abacate	Avelã
+
+const FRUTAS = {
+	category: 'Frutas',
+	items: [
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+
+	]
+}
+
+
+
+
+Abacate	Avelã
 Ghee	Am oras	Castanha de caju
 Gordura bovina	Côco	Castanha do pará
 Gordura de pato Manteiga  Manteiga de cacao	Cranberry  Framboesa(raspberry) Limão e lima	Macadâmia Noz pecã Pistache
