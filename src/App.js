@@ -1,18 +1,44 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { ACELERADORES } from './mightyFood/mightyFoodAceleradores';
+
+
+
+
+
 
 class App extends Component {
   render() {
+
+    for ( let i in ACELERADORES) {
+      console.log(ACELERADORES[i].category)
+    }
+
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+
+
+
+
+        {
+
+          ACELERADORES.CARNES_E_PEIXES.items.map((item, index) => (
+            <p key={index} className="App-intro">
+              {item.name}
+            </p>
+          ))
+
+        }
+
+
+
+
       </div>
     );
   }
