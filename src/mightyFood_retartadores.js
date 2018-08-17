@@ -36,46 +36,7 @@ const XX = {
 
 
 
-const FRUTAS = {
-	category: 'Frutas',
-	items: [
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-
-	]
-}
-
-
-
-# FRUTAS  Abacaxi  Ameixa
-
-
-Ddl Idl Id  Caqui
-
-Carambola
-Cereja
-Damasco
-Figo  Fruta do conde
-Fruta p�o
-Goiaba  Grapefruit  Jaca
-Kiwi  Laranja  Lichia  Ma��
-Mam�o
-Maracuj�  Melancia
-Mel�o
-Nactarina
-P�ra
-P�ssego  Tangerina  Uva
-:= OUTROS
-Chocolate 85% para cima
+   
 
 
 
