@@ -5,6 +5,8 @@ export const ACELADORES = {
 
 }
 
+// ACELERADORES
+
 const CARNES_E_PEIXES = {
 
 	category: 'Carnes e Peixes',
@@ -44,31 +46,6 @@ const CARNES_E_PEIXES = {
 
 	]
 }
-
-
-
-
-
-
-
-
-Pepino ^ CARNES E PEIXES
-
-
-
-
-
-
-
-name: ''
-name: ''
-name: ''
-name: ''
-name: ''
-name: ''
-name: ''
-name: ''
-
 
 
 export const MODERADORES = {
@@ -264,35 +241,6 @@ const OVOS_E_LACTICINIOS = {
 }
 
 
-const XX = {
-	category: '',
-	items: [
-		{
-			name: ''
-		},
-
-	]
-}
-
-
-const XX = {
-	category: '',
-	items: [
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-
-	]
-}
-
   
 const BEBIDAS_E_ADOCANTES = {
 	category: 'Bebidas e Adoçantes',
@@ -328,6 +276,87 @@ const NOZES_SEMENTES_E_AFINS = {
 const FRUTAS = {
 	category: 'Frutas',
 	items: [
+		{name: 'Abacate'},
+		{name: 'Amoras'},
+		{name: 'Coco'},
+		{name: 'Cranberry'},
+		{name: 'Framboesa(raspberry)'},
+		{name: 'Limão e lima'},
+		{name: 'Mirtilo (blueberry)'},
+		{name: 'Morango'},
+
+	]
+}
+
+
+
+
+
+const TEMPEROS_ERVAS_E_AFINS = {
+	category: 'Temperos, Ervas e Afins',
+	items: [
+		{name: 'Açafrão'},
+		{name: 'Alecrim'},
+		{name: 'Canela'},
+		{name: 'Coentro'},
+		{name: 'Cominho'},
+		{name: 'Cravo  Curry'},
+		{name: 'Endro'},
+		{name: 'Gengibre'},
+		{name: 'Hortelã'},
+		{name: 'Maionese (caseira)'},
+		{name: 'Mostarda (planta)'},
+		{name: 'Mostarda (semente) '},
+		{name: 'Noz moscada'},
+		{name: 'Orágano'},
+		{name: 'Páprica'},
+		{name: 'Pimenta (todas)'},
+		{name: 'Sal'},
+		{name: 'Salsinha'},
+		{name: 'Salvia'},
+		{name: 'Vinagre'},
+		{name: 'Vinagra balâmico (sem açucar)'},
+	]
+}
+ 
+
+  
+
+
+
+
+const OUTROS = {
+	category: 'Outros',
+	items: [
+		{
+			name: 'Chucrute(Sauerkraut)'
+		},
+		{
+			name: ' Pão de linhaça'
+		},
+
+	]
+}
+
+
+
+// MODERADORES
+
+
+const XX = {
+	category: '',
+	items: [
+		{
+			name: ''
+		},
+
+	]
+}
+
+
+const XX = {
+	category: '',
+	items: [
 		{name: ''},
 		{name: ''},
 		{name: ''},
@@ -344,48 +373,26 @@ const FRUTAS = {
 }
 
 
+const CARNES_E_PEIXES = {
+	category: 'Carnes e Peixes',
+	items: [
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+		{name: ''},
+
+	]
+}
 
 
-
-
-Frutas
-Abacate
-Am oras
-C�co
-Cranberry  Framboesa (raspberry) Lim�o e lima
-Mirtilo (blueberry) Morango
-
-
-
-
-11 TEMPEROS, ERVAS E AFINS
-A r5o
-Ml^dl 1 dU  Alecrim
-
-Canela
-Coentro
-Cominho
-Cravo  Curry
-Endro
-Gengibre  Hortel�  Maionese (caseira)
-Manjeric�o Mostarda (planta) Mostarda (semente) Noz moscada
-Or�gano
-P�prica  Pimenta (todas)
-Sal
-Salsinha
-Salvia
-Vinagre  Vinagra bals�mico (sem a��car)
-
-
-
-
-:= OUTROS
-Chucrute(Sauerkraut)
- P�o de linha�a
-
-
-
-^ CARNES E PEIXES
+^ 
 Peperoni  Presunto  Salame
 �) GORDURAS E �LEOS  Manteiga de am�ndoas Pasta de amendoim
 
