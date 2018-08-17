@@ -376,6 +376,37 @@ const XX = {
 const CARNES_E_PEIXES = {
 	category: 'Carnes e Peixes',
 	items: [
+		{name: 'Peperoni'},
+		{name: 'Presunto'},
+		{name: 'Salame'},
+
+	]
+}
+
+const GORDURAS_E_OLEOS = {
+	category: 'Gorudas e Óleos',
+	items: [
+		{name: 'Manteiga de am�ndoas'},
+		{name: 'Pasta de amendoim'}
+
+	]
+}
+
+
+const GRAOS_E_CEREAIS = {
+	category: 'Grãos e Cereais',
+	items: [
+		{name: 'Arroz branco'},
+		{name: 'Arroz integral'},
+		{name: 'Arroz selvagem'},
+	
+	]
+}
+
+    
+const LEGUMES_E_TUBERCULOS = {
+	category: 'Legurmes e Tubérculos',
+	items: [
 		{name: ''},
 		{name: ''},
 		{name: ''},
@@ -391,16 +422,7 @@ const CARNES_E_PEIXES = {
 	]
 }
 
-
-^ 
-Peperoni  Presunto  Salame
-�) GORDURAS E �LEOS  Manteiga de am�ndoas Pasta de amendoim
-
-GR�OS E CEREAIS  Arroz branco
-Arroz integral
-Arroz selvagem
-
-w LEGUMES E TUB�RCULOS  Ab�bora
+w   Ab�bora
 Banana verde (de cozinhar)
 Batata doce Batata inglesa Gr�o de bico Inhame Mandioca  Tapioca (mandioca) Taro
 
