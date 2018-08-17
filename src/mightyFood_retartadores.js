@@ -15,102 +15,82 @@ const XX = {
 }
 
 
-const XX = {
-	category: '',
+const CARNES_E_PEIXES = {
+	category: 'Carnes e Peixes',
 	items: [
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
-		{name: ''},
+		{name: 'Apresentado'},
+		{name: 'Salsicha'}
+	]
+}
 
+
+
+const GORDURA_E_OLEOS = {
+	category: 'Gordura e Óleos',
+	items: [
+		{name: ' Óleo de amendoim '},
+		{name: 'Óleo de canola'},
+		{name: 'Óleo de girassol'},
+		{name: 'Óleo de milho'},
+		{name: 'Óleo de semente de algodão'},
+		{name: 'Óleo de soja'},
+		{name: 'Óleo vegetal (outros)'},
 	]
 }
 
 
 
 
-   
+
+
+const GRAOS_E_CEREAIS = {
+	category: 'Grãos e Cereais',
+	items: [
+		{name: 'Aveia'},
+		{name: 'Cuscus'},
+		{name: 'Granola'},
+		{name: 'Milho'},
+		{name: 'Quinoa'},
+		{name: 'Soja'},
+		{name: 'Trigo (em todas as formas)'},
+	]
+}
+
+
+
+const LEGUMES_E_TUBERCULOS = {
+	category: 'Legumes e Tubérculos',
+	items: [
+		{name: 'Feijão (todos)'},
+		{name: 'Lentilha'},
+	]
+}
 
 
 
 
 
 
-
-
-carnes e Peixes
-Apresuntado
-
-Salsicha
-
-
-
-Gordura e �leos
-
-Margarina �leo de amendoim �leodecanola �leo de girassol �leo de milho
-
-�leo de semente de algod�o
-
-�leo de soja
-
-�leo vegetal (outros)
-Aveia
-
-Cuscus
-
-Granola
-
-Milho
-
-Quinoa
-
-Soja
-
-Trigo (em todas as formas)
-
-
-
-
-
-
-
-
-
-
-
-legurmes e fruta
-
-
-Feij�o (todos) Lentilha
-
-
-
-ovos e laticinios
-
-Cream (integral fullfat) Creme de leite Iogurte de baixa gordura Iogurte natural integral Kefir de leite Leite condensado Leite desnatado e afins Leite em p�
-
-Leite integral (n�o pasteurizado)
-
-Queijo Cottage
-
-Queijo de cabra
-
-Queijos
-
-Requeij�o
-
-Sorvete
-
-Whey Protein
-
-
+const OVOS_E_LATICINIOS = {
+	category: 'ovos e laticinios',
+	items: [
+		{name: 'Cream (integral fullfat)'},
+		{name: 'Creme de leite '},
+		{name: 'Iogurte de baixa gordura'},
+		{name: 'Iogurte natural integral'},
+		{name: 'Kefir de leite'},
+		{name: 'Leite condensado'},
+		{name: 'Leite desnatado e afins'},
+		{name: 'Leite em pó'},
+		{name: 'Leite integral (não pasteurizado)'},
+		{name: 'Queijo Cottage'},
+		{name: 'Queijo de cabra'},
+		{name: 'Queijos'},
+		{name: 'Requeijão'},
+		{name: 'Sorvete'},
+		{name: 'Whey Protein'},
+	]
+}
 
 
 bebidas e adocantes
