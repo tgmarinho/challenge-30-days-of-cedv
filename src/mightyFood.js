@@ -1,8 +1,13 @@
 
+export const ACELADORES = {
+	carnesEPeixes: CARNES_E_PEIXES,
+	gordurasEOleos: GORDURAS_E_OLEOS,
 
-export const ACELERADORES = {
+}
 
-	category: 'CARNES E PEIXES',
+const CARNES_E_PEIXES = {
+
+	category: 'Carnes e Peixes',
 	items: [
 		{
 			name: 'Anchovas'
@@ -33,9 +38,32 @@ export const ACELERADORES = {
 		{ name: 'Rins' },
 		{ name: 'Salmão' },
 		{ name: 'Sardinhas' },
+		{ name: 'Tilápias' },
+		{ name: 'Truta' },
 
 	]
 }
+
+
+
+
+name: 'Pepino'
+
+name: 'Pimentão'
+
+name: 'Rabanete'
+
+name: 'Repolho'
+
+name: 'Rúcula'
+
+name: 'Tomates'
+
+name: 'Vagem'
+
+name: 'Zucchini'
+
+
 
 
 Pepino ^ CARNES E PEIXES
@@ -69,7 +97,7 @@ export const MODERADORES = {
 			name: 'Presunto'
 		},
 		{
-			name: 'Salame
+			name: 'Salame'
 		}
 	]
 }
@@ -78,25 +106,161 @@ export const MODERADORES = {
 
 
 
-name: 'Pepino'
+const GORDURAS_E_OLEOS = {
 
-name: 'Pimentão'
+	category: 'Gorduras e Oleos',
+	items: [
+		{
+			name: 'Azeite de dendê '
+		},
+		{
+			name: 'Azeite de oliva'
+		},
+		{
+			name: 'Banha de Porco'
+		},
+		{
+			name: 'Ghee'
+		},
+		{
+			name: 'Gordura bovina'
+		},
+		{
+			name: 'Gordura de pato'
+		},
+		{
+			name: 'Manteiga'
+		},
+		{
+			name: 'Mateiga de cacao'
+		},
+		{
+			name: 'Óleo de Abacate'
+		},
+		{
+			name: 'Óleo de coco'
+		},
+		{
+			name: 'Óleo de macadâmia'
+		},
+		{
+			name: 'Óleo de peixe'
+		},
 
-name: 'Rabanete'
 
-name: 'Repolho'
-
-name: 'Rúcula'
-
-name: 'Tomates'
-
-name: 'Vagem'
-
-name: 'Zucchini'
+	]
+}
 
 
+const LEGUMES_E_TUBERCULOS = {
 
-£) GORDURAS E ÓLEOS  Manteiga de amêndoas Pasta de amendoim
+	category: 'Legumes e Tubérculos',
+	items: [
+		{
+			name: 'Abacate'
+		},
+		{
+			name: 'Abobrina'
+		},
+		{
+			name: 'Agrão'
+		},
+		{
+			name: 'Alcachofra'
+		},
+		{
+			name: 'Aipo'
+		},
+		{
+			name: 'Alcachofra'
+		},
+		{
+			name: 'Alface e afins'
+		},
+		{
+			name: 'Algas'
+		},
+		{
+			name: 'Alho'
+		},
+		{
+			name: 'Almeirão'
+		},
+		{
+			name: 'Aspargo'
+		},
+		{
+			name: 'Azeitona'
+		},
+		{
+			name: 'Beringela'
+		},
+		{
+			name: 'Beterraba'
+		},
+		{
+			name: 'Brócoli'
+		},
+		{
+			name: 'Brotos'
+		},
+		{
+			name: 'Cebelo (todas)'
+		},
+		{
+			name: 'Cebolinha'
+		},
+		{
+			name: 'Cenoura'
+		},
+		{
+			name: 'Chilis'
+		},
+		{
+			name: 'Cogumelos (todos)'
+		},
+		{
+			name: 'Coube de bruxelas'
+		},
+		{
+			name: 'Couve galega'
+		},
+		{
+			name: 'Couve-de-folhas'
+		},
+		{
+			name: 'Couve-flor'
+		},
+		{
+			name: 'Ervilhas'
+		},
+		{
+			name: 'Espinafre'
+		},
+		{
+			name: 'Funcho'
+		},
+		{
+			name: 'Gengibre'
+		},
+	]
+
+}
+
+
+ 
+
+const XX = {
+	category: '',
+	items: [
+		{
+			name: ''
+		},
+
+	]
+}
+
+£) GORDURAS E ÓLEOS  Pasta de amendoim
 f# OVOS E LATICÍNIOS
 Leite de côco(não é laticínio) Ovos(clara e gema)	GRÃOS E CEREAIS  Arroz branco
 Arroz integral
@@ -109,7 +273,7 @@ Gergelim	¥ BEBIDAS E ADOÇANTES
 Tilápia  Truta	Linhaça  Semente de abóbora	Água de côco Leite de amêndoas
 Semente de chia	Suco de fruta naturalfrecémfeito)
 & GORDURAS E ÓLEOS	Semente de girassol
-Azeite de dendê Azeite de oliva		í > NOZES, SEMENTES E AFINS  Amêndoa
+		í > NOZES, SEMENTES E AFINS  Amêndoa
 
 
 
