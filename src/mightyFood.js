@@ -346,76 +346,113 @@ const FRUTAS = {
 
 
 
-Abacate	Avelã
-Ghee	Am oras	Castanha de caju
-Gordura bovina	Côco	Castanha do pará
-Gordura de pato Manteiga  Manteiga de cacao	Cranberry  Framboesa(raspberry) Limão e lima	Macadâmia Noz pecã Pistache
-Óleo de abacate Óleo de côco Óleo de macadâmia	Mirtilo(blueberry) Morango	# FRUTAS  Abacaxi  Ameixa
-Óleo de peixe	11 TEMPEROS, ERVAS E AFINS
+
+
+Frutas
+Abacate
+Am oras
+C�co
+Cranberry  Framboesa (raspberry) Lim�o e lima
+Mirtilo (blueberry) Morango
+
+
+
+
+11 TEMPEROS, ERVAS E AFINS
 A r5o
-Ml ^ dl 1 dU  Alecrim	Ddl Idl Id  Caqui
+Ml^dl 1 dU  Alecrim
 
-Abacate	Canela	Carambola
-Abobrinha	Coentro	Cereja
-Agrião	Cominho	Damasco
-Aipo  Alcachofra	Cravo  Curry	Figo  Fruta do conde
-Alface e afins	Endro	Fruta pão
-Algas  Alho  Almeirão	Gengibre  Hortelã  Maionese(caseira)	Goiaba  Grapefruit  Jaca
-Aspargo  Azeitona  Beringela  Beterraba	Manjericão Mostarda(planta) Mostarda(semente) Noz moscada	Kiwi  Laranja  Lichia  Maçã
-Brócoli	Orégano	Mamão
-Brotos  Cebola(todas)	Páprica  Pimenta(todas)	Maracujá  Melancia
-Cebolinha	Sal	Melão
-Cenoura	Salsinha	Nactarina
-Chilis	Salvia	Pêra
-Cogumelos(todos) Couve de bruxelas Couve galega Couve - de - folhas	Vinagre  Vinagra balsâmico(sem açúcar)	Pêssego  Tangerina  Uva
-Couve - flor	:= OUTROS:= OUTROS
-Ervilhas  Espinafre  Funcho	Chucrute(Sauerkraut) Pão de linhaça	Chocolate 85 % para cima
-Gengibre
+Canela
+Coentro
+Cominho
+Cravo  Curry
+Endro
+Gengibre  Hortel�  Maionese (caseira)
+Manjeric�o Mostarda (planta) Mostarda (semente) Noz moscada
+Or�gano
+P�prica  Pimenta (todas)
+Sal
+Salsinha
+Salvia
+Vinagre  Vinagra bals�mico (sem a��car)
 
-	^ CARNES E PEIXES
-fi GORDURAS E ÓLEOS
-w LEGUMES E TUBÉRCULOS è FRUTAS
-7 BEBIDAS E ADOÇANTES
-	* Utilize esse guia somente durante as 4 semanas do Desafio.A partir da fase 2 do Código Emagrecer de Vez, você passará a usar a Tabela de Alimentos completa dentro do portal.
 
-Material exclusivo para o CodigoEmagrecerDeVez.com.br
-Caldo de cana Cerveja
 
-Cerveja gluten - free
 
-Destilados
+:= OUTROS
+Chucrute(Sauerkraut)
+ P�o de linha�a
 
-Dextrose
 
-Energéticos(normal e diet)
 
-Erythritol
+^ CARNES E PEIXES
+Peperoni  Presunto  Salame
+�) GORDURAS E �LEOS  Manteiga de am�ndoas Pasta de amendoim
 
-Estévia
+GR�OS E CEREAIS  Arroz branco
+Arroz integral
+Arroz selvagem
 
-Frutose
+w LEGUMES E TUB�RCULOS  Ab�bora
+Banana verde (de cozinhar)
+Batata doce Batata inglesa Gr�o de bico Inhame Mandioca  Tapioca (mandioca) Taro
 
-Gatorade e afins Leite de soja Maltitol Mel(natural)
 
-Refrigerante(normal e diet) Sorbitol
+� BEBIDAS E ADO�ANTES
+�gua de c�co Leite de am�ndoas
+Suco de fruta naturalfrec�mfeito)
 
-Suco de frutas industrializado
+�> NOZES, SEMENTES E AFINS  Am�ndoa
 
-Sucralose
 
-Vinho
+Avel�
+Castanha de caju
+Castanha do par�
+Macad�mia Noz pec� Pistache
+# FRUTAS  Abacaxi  Ameixa
 
-Xarope de Maple Xylitol
+
+Ddl Idl Id  Caqui
+
+Carambola
+Cereja
+Damasco
+Figo  Fruta do conde
+Fruta p�o
+Goiaba  Grapefruit  Jaca
+Kiwi  Laranja  Lichia  Ma��
+Mam�o
+Maracuj�  Melancia
+Mel�o
+Nactarina
+P�ra
+P�ssego  Tangerina  Uva
+:= OUTROS
+Chocolate 85% para cima
+
+
+
+
+
+
+
+
+carnes e Peixes
 Apresuntado
 
 Salsicha
-Margarina Óleo de amendoim Óleodecanola Óleo de girassol Óleo de milho
 
-Óleo de semente de algodão
 
-Óleo de soja
 
-Óleo vegetal(outros)
+Gordura e �leos
+
+Margarina �leo de amendoim �leodecanola �leo de girassol �leo de milho
+
+�leo de semente de algod�o
+
+�leo de soja
+
+�leo vegetal (outros)
 Aveia
 
 Cuscus
@@ -428,15 +465,30 @@ Quinoa
 
 Soja
 
-Trigo(em todas as formas)
-it NOZES, SEMENTES E AFINS
-Amendoim
-Feijão(todos) Lentilha
-Frutas em lata Frutas secas Geléia Tâmara Uva passa
-OVOS E LATICÍNIOS
-Cream(integral fullfat) Creme de leite Iogurte de baixa gordura Iogurte natural integral Kefir de leite Leite condensado Leite desnatado e afins Leite em pó
+Trigo (em todas as formas)
 
-Leite integral(não pasteurizado)
+
+
+
+
+
+
+
+
+
+
+legurmes e fruta
+
+
+Feij�o (todos) Lentilha
+
+
+
+ovos e laticinios
+
+Cream (integral fullfat) Creme de leite Iogurte de baixa gordura Iogurte natural integral Kefir de leite Leite condensado Leite desnatado e afins Leite em p�
+
+Leite integral (n�o pasteurizado)
 
 Queijo Cottage
 
@@ -444,23 +496,85 @@ Queijo de cabra
 
 Queijos
 
-Requeijão
+Requeij�o
 
 Sorvete
 
 Whey Protein
-U TEMPEROS, ERVAS E AFINS
-Caldo de carne(comprado, todos) Ketchup
 
-Maionese(comprada)
+
+
+
+bebidas e adocantes
+
+A��car cristalizado A��car de c�co A��car integral A��car mascavo �gave Aspartame
+
+Caldo de cana Cerveja
+
+Cerveja gluten-free
+
+Destilados
+
+Dextrose
+
+Energ�ticos (normal e diet)
+
+Erythritol
+
+Est�via
+
+Frutose
+
+Gatorade e afins Leite de soja Maltitol Mel (natural)
+
+Refrigerante (normal e diet) Sorbitol
+
+Suco de frutas industrializado
+
+Sucralose
+
+Vinho
+
+Xarope de Maple Xylitol
+
+
+
+
+
+
+nozes e afins
+
+Amendoim
+
+
+
+Furutas
+
+Frutas em lata Frutas secas Gel�ia T�mara Uva passa
+
+
+temperos e ervas
+
+Caldo de carne (comprado,todos) Ketchup
+
+Maionese (comprada)
 
 Molho barbecue Molho de soja
 
-Molhos de salada industrializados Molhos industrializados Mostarda(condimento)
-Barra de cereal Barra de proteína Batata frita Chips Massas Pão(todos)
+Molhos de salada industrializados Molhos industrializados Mostarda (condimento)
+
+
+
+
+
+
+
+
+cereais
+
+
+Barra de cereal Barra de prote�na Batata frita Chips Massas P�o (todos)
 
 Salgadinhos
 
-Salgados(coxinha, pastel, etc) Sucrilhos e cereais matinais Tortilhas
-Açúcar cristalizado Açúcar de côco Açúcar integral Açúcar mascavo Ágave Aspartame
-VELOCÍMETRO do EMAGRECIMENTO
+Salgados (coxinha, pastel, etc) Sucrilhos e cereais matinais Tortilhas
