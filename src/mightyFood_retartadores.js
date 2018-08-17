@@ -1,18 +1,7 @@
 
-
-
 // RETARDADORES
 
 
-const XX = {
-	category: '',
-	items: [
-		{
-			name: ''
-		},
-
-	]
-}
 
 
 const CARNES_E_PEIXES = {
@@ -22,7 +11,6 @@ const CARNES_E_PEIXES = {
 		{name: 'Salsicha'}
 	]
 }
-
 
 
 const GORDURA_E_OLEOS = {
@@ -37,10 +25,6 @@ const GORDURA_E_OLEOS = {
 		{name: 'Óleo vegetal (outros)'},
 	]
 }
-
-
-
-
 
 
 const GRAOS_E_CEREAIS = {
@@ -67,10 +51,6 @@ const LEGUMES_E_TUBERCULOS = {
 }
 
 
-
-
-
-
 const OVOS_E_LATICINIOS = {
 	category: 'ovos e laticinios',
 	items: [
@@ -93,76 +73,89 @@ const OVOS_E_LATICINIOS = {
 }
 
 
-bebidas e adocantes
+const BEBIDAS_E_ADOCANTES = {
+	category: 'Bebidas e Adocantes',
+	items: [
+		{name: 'A��car cristalizado '},
+		{name: 'A��car de c�co'},
+		{name: 'A��car integral'},
+		{name: 'A��car mascavo '},
+		{name: '�gave Aspartame'},
+		{name: 'Caldo de cana '},
+		{name: 'Cerveja'},
+		{name: 'Cerveja gluten-free'},
+		{name: 'Destilados'},
+		{name: 'Dextrose'},
+		{name: 'Energ�ticos (normal e diet)'},
+		{name: 'Erythritol'},
+		{name: 'Est�via'},
+		{name: 'Frutose'},
+		{name: 'Gatorade e afins'},
+		{name: 'Leite de soja '},
+		{name: 'Maltitol'},
+		{name: 'Mel (natural)'},
+		{name: 'Refrigerante (normal e diet)'},
+		{name: 'Sorbitol'},
+		{name: 'Suco de frutas industrializado'},
+		{name: 'Sucralose'},
+		{name: 'Vinho'},
+		{name: 'Xarope de Maple '},
+		{name: 'Xylitol'},
+		{name: ''},
 
-A��car cristalizado A��car de c�co A��car integral A��car mascavo �gave Aspartame
-
-Caldo de cana Cerveja
-
-Cerveja gluten-free
-
-Destilados
-
-Dextrose
-
-Energ�ticos (normal e diet)
-
-Erythritol
-
-Est�via
-
-Frutose
-
-Gatorade e afins Leite de soja Maltitol Mel (natural)
-
-Refrigerante (normal e diet) Sorbitol
-
-Suco de frutas industrializado
-
-Sucralose
-
-Vinho
-
-Xarope de Maple Xylitol
-
-
-
+	]
+}
 
 
 
-nozes e afins
-
-Amendoim
-
-
-
-Furutas
-
-Frutas em lata Frutas secas Gel�ia T�mara Uva passa
+const NOZES_SEMENTES_E_AFINS = {
+	category: 'nozes e afins',
+	items: [
+		{name: 'Amendoin'}
+	]
+}
 
 
-temperos e ervas
+const FRUTAS = {
+	category: 'Frutas',
+	items: [
+		{name: 'Frutas em lata'},
+		{name: 'Frutas secas'},
+		{name: 'Gel�ia'},
+		{name: 'T�mara'},
+		{name: 'Uva passa'}
+	]
+}
+   
 
-Caldo de carne (comprado,todos) Ketchup
+const TEMPEROS_E_ERVAS = {
+	category: 'Temperos e Ervas',
+	items: [
+		{name: 'Caldo de carne (comprado,todos)'},
+		{name: 'Ketchup'},
+		{name: 'Maionese (comprada)'},
+		{name: 'Molho barbecue'},
+		{name: 'Molho de soja'},
+		{name: 'Molhos de salada industrializados'},
+		{name: 'Molhos industrializados'},
+		{name: 'Mostarda (condimento)'}
 
-Maionese (comprada)
-
-Molho barbecue Molho de soja
-
-Molhos de salada industrializados Molhos industrializados Mostarda (condimento)
-
-
-
-
-
-
-
-
-cereais
+	]
+}
 
 
-Barra de cereal Barra de prote�na Batata frita Chips Massas P�o (todos)
-
-Salgadinhos
-
-Salgados (coxinha, pastel, etc) Sucrilhos e cereais matinais Tortilhas
+const CERAIS = {
+	category: 'Cerais',
+	items: [
+		{name: 'Barra de cereal'},
+		{name: 'Barra de prote�na'},
+		{name: 'Batata frita'},
+		{name: 'Chips'},
+		{name: 'Massas'},
+		{name: 'P�o (todos)'},
+		{name: 'Salgadinhos'},
+		{name: 'Salgados (coxinha, pastel, etc)'},
+		{name: 'Sucrilhos e cereais matinais'},
+		{name: 'Tortilhas'}
+	]
+}
