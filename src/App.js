@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { ACELERADORES } from './mightyFood/mightyFoodAceleradores';
+// import { ACELERADORES } from './mightyFood/mightyFoodAceleradores';
+// import { MODERADORES } from './mightyFood/mightyFoodModeradores';
+import { RETARDADORES } from './mightyFood/mightyFoodRetardadores';
+
 
 
 
@@ -11,8 +14,8 @@ import { ACELERADORES } from './mightyFood/mightyFoodAceleradores';
 class App extends Component {
   render() {
 
-    for ( let i in ACELERADORES) {
-      console.log(ACELERADORES[i].category)
+    for ( let i in RETARDADORES) {
+      console.log(RETARDADORES[i].category)
     }
 
     return (
@@ -28,7 +31,7 @@ class App extends Component {
 
         {
 
-          ACELERADORES.CARNES_E_PEIXES.items.map((item, index) => (
+  RETARDADORES.CARNES_E_PEIXES.items.map((item, index) => (
             <p key={index} className="App-intro">
               {item.name}
             </p>

@@ -41,7 +41,7 @@ export const MODERADORES = {
         },
 
         ]
-    }
+    },
 
      LEGUMES_E_TUBERCULOS: {
         category: 'Legurmes e Tubérculos',
