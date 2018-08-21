@@ -20,7 +20,6 @@ import { Restaurant, LocalCafe, AccessibilityNew } from "@material-ui/icons";
 const CustomTableCell = withStyles(theme => ({
     head: {
         backgroundColor: "#FFA726",
-        fontSize: 12,
         fontWeight: "bold",
         color: theme.palette.common.white
     },

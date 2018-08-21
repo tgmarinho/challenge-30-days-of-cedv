@@ -29,11 +29,14 @@ const styles = theme => ({
 });
 
 const FoodList = props => {
-  const { classes, food, backgroundColor, fontColor } = props;
- console.log(fontColor)
+  const { classes, food, backgroundColor, fontColor, typeDescription } = props;
+  console.log(fontColor)
 
   return (
     <Fragment>
+      <br />
+      <Typography variant="display1" align="center" gutterBottom >{typeDescription}</Typography>
+      <br />
       {food.map((item, index) => (
         <ExpansionPanel key={index}>
           <ExpansionPanelSummary style={backgroundColor} expandIcon={<ExpandMoreIcon />}>
