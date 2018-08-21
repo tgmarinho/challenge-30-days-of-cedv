@@ -20,6 +20,9 @@ import { acelera, retarda, modera } from "./data/descriptions";
 import { ACELERADORES, MODERADORES, RETARDADORES } from "./data/mightyFood";
 
 import logo from './svg/logo.svg';
+import puma from './svg/puma.svg';
+import horse from './svg/horse.svg';
+import turtle from './svg/turtle.svg';
 import './App.css';
 
 const TabContainer = props => {
@@ -67,9 +70,9 @@ class ScrollableTabsButtonForce extends React.Component {
                         textColor="primary"
                     >
                         <Tab icon={<img src={logo} className="App-logo" alt="logo" />} />
-                        <Tab label="Aceleradores" icon={<ThumbUp />} />
-                        <Tab label="Moderadores" icon={<ThumbsUpDown />} />
-                        <Tab label="Retardadores" icon={<ThumbDown />} />
+                        <Tab label="Aceleradores" icon={<img src={puma} className="Tab-icon" alt="IconFood" />} />
+                        <Tab label="Moderadores" icon={<img src={horse} className="Tab-icon" alt="IconFood" />} />
+                        <Tab label="Retardadores" icon={<img src={turtle} className="Tab-icon" alt="IconFood" />} />
                         <Tab label="Semana" icon={<LooksOne />} />
                         <Tab label="Semana" icon={<LooksTwo />} />
                         <Tab label="Semana" icon={<Looks3 />} />
