@@ -7,7 +7,7 @@ import Tab from '@material-ui/core/Tab';
 import PhoneIcon from '@material-ui/icons/Phone';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
-import { Event } from '@material-ui/icons';
+import { Event, LooksOne, LooksTwo, Looks3, Looks4 } from '@material-ui/icons';
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 import ThumbDown from '@material-ui/icons/ThumbDown';
 import ThumbUp from '@material-ui/icons/ThumbUp';
@@ -15,11 +15,13 @@ import ThumbsUpDown from '@material-ui/icons/ThumbsUpDown';
 
 import Typography from '@material-ui/core/Typography';
 
-import FoodList from './ui/FoodList'
+import FoodList from './ui/FoodList';
+import WeekComponent from './ui/WeekComponent'
 
 import { ACELERADORES } from './mightyFood/mightyFoodAceleradores';
 import { MODERADORES } from './mightyFood/mightyFoodModeradores';
 import { RETARDADORES } from "./mightyFood/mightyFoodRetardadores";
+import { weekOne, weekTwo, weekThree, weekFour } from './data/weeks';
 
 function TabContainer(props) {
     return (
@@ -68,15 +70,20 @@ class ScrollableTabsButtonForce extends React.Component {
                         <Tab label="Aceleradores" icon={<ThumbUp />} />
                         <Tab label="Moderadores" icon={<ThumbsUpDown />} />
                         <Tab label="Retardadores" icon={<ThumbDown />} />
-                        <Tab label="Semana 1" icon={<Event />} />
+                        <Tab label="Semana" icon={<LooksOne />} />
+                        <Tab label="Semana" icon={<LooksTwo />} />
+                        <Tab label="Semana" icon={<Looks3 />} />
+                        <Tab label="Semana" icon={<Looks4 />} />
 
                     </Tabs>
                 </AppBar>
                 {value === 0 && <TabContainer>{<FoodList food={ACELERADORES} backgroundColor={{ backgroundColor: "#00E676" }} />}</TabContainer>}
-                {value === 1 && <TabContainer>{<FoodList food={MODERADORES} backgroundColor={{ backgroundColor: "#FFEE58"}} />}</TabContainer>}
-                {value === 2 && <TabContainer>{<FoodList food={RETARDADORES} backgroundColor={{ backgroundColor: "#FF7043"}} />} </TabContainer>}
-                {value === 3 && <TabContainer>Semana 1</TabContainer>}
-
+                {value === 1 && <TabContainer>{<FoodList food={MODERADORES} backgroundColor={{ backgroundColor: "#FFEE58" }} />}</TabContainer>}
+                {value === 2 && <TabContainer>{<FoodList food={RETARDADORES} backgroundColor={{ backgroundColor: "#FF7043" }} fontColor={{ color: "white" }} />} </TabContainer>}
+                {value === 3 && <TabContainer>{<WeekComponent rows={weekOne} />}</TabContainer>}
+                {value === 4 && <TabContainer>{<WeekComponent rows={weekTwo} />}</TabContainer>}
+                {value === 5 && <TabContainer>{<WeekComponent rows={weekThree} />}</TabContainer>}
+                {value === 6 && <TabContainer>{<WeekComponent rows={weekFour} />}</TabContainer>}
             </div>
         );
     }

@@ -29,15 +29,15 @@ const styles = theme => ({
 });
 
 const FoodList = props => {
-  const { classes, food, backgroundColor } = props;
- 
+  const { classes, food, backgroundColor, fontColor } = props;
+ console.log(fontColor)
 
   return (
     <Fragment>
       {food.map((item, index) => (
         <ExpansionPanel key={index}>
           <ExpansionPanelSummary style={backgroundColor} expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="title" className={classes.heading}>
+            <Typography component="h5" variant="title" style={fontColor}>
               {item.category}
             </Typography>
           </ExpansionPanelSummary>
