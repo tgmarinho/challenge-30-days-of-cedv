@@ -9,7 +9,7 @@ import {
   ExpansionPanelDetails
 } from "@material-ui/core";
 
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
@@ -25,14 +25,12 @@ const styles = theme => ({
     overflow: "auto",
     backgroundColor: theme.palette.background.paper
   },
-  expansionPanelSummary: {
-    backgroundColor: "red",
-  }
+
 });
 
 const FoodList = props => {
   const { classes, food, backgroundColor } = props;
-  console.log(backgroundColor);
+ 
 
   return (
     <Fragment>

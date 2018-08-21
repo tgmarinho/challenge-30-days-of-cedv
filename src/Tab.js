@@ -7,7 +7,7 @@ import Tab from '@material-ui/core/Tab';
 import PhoneIcon from '@material-ui/icons/Phone';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
-import HelpIcon from '@material-ui/icons/Help';
+import { Event } from '@material-ui/icons';
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 import ThumbDown from '@material-ui/icons/ThumbDown';
 import ThumbUp from '@material-ui/icons/ThumbUp';
@@ -68,7 +68,7 @@ class ScrollableTabsButtonForce extends React.Component {
                         <Tab label="Aceleradores" icon={<ThumbUp />} />
                         <Tab label="Moderadores" icon={<ThumbsUpDown />} />
                         <Tab label="Retardadores" icon={<ThumbDown />} />
-                        <Tab label="Semana 1" icon={<HelpIcon />} />
+                        <Tab label="Semana 1" icon={<Event />} />
 
                     </Tabs>
                 </AppBar>
