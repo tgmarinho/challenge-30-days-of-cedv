@@ -2,21 +2,27 @@
   "name": "challenge-30-days-of-cedv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tgmarinho.github.io/challenge-30-days-of-cedv/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-solid-svg-icons": "^5.2.0",
     "@fortawesome/react-fontawesome": "^0.1.2",
     "@material-ui/core": "^1.5.0",
     "@material-ui/icons": "^2.0.2",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-icons-kit": "^1.1.7",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "react-tunnels": "^1.0.2",
-    "recompose": "^0.28.2"
+    "recompose": "^0.28.2",
+    "rimraf": "^2.6.2"
   },
   "scripts": {
+    "clear": "rimraf build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
