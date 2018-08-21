@@ -8,7 +8,8 @@ import {
     Looks4,
     ThumbDown,
     ThumbUp,
-    ThumbsUpDown
+    ThumbsUpDown,
+    NetworkCheck
 } from "@material-ui/icons";
 
 import WeekComponent from "./ui/WeekComponent";
@@ -16,12 +17,9 @@ import FoodList from "./ui/FoodList";
 
 import { weekOne, weekTwo, weekThree, weekFour } from "./data/weeks";
 import { acelera, retarda, modera } from "./data/descriptions";
+import { ACELERADORES, MODERADORES, RETARDADORES } from "./data/mightyFood";
 
-import { ACELERADORES } from "./mightyFood/mightyFoodAceleradores";
-import { MODERADORES } from "./mightyFood/mightyFoodModeradores";
-import { RETARDADORES } from "./mightyFood/mightyFoodRetardadores";
-
-import logo from './logo.svg';
+import logo from './svg/logo.svg';
 import './App.css';
 
 const TabContainer = props => {
@@ -87,6 +85,9 @@ class ScrollableTabsButtonForce extends React.Component {
                                     <h1 className="App-title">Bem vindos ao Desafio 30 Dias - Reagindo na Alimentação</h1>
                                 </header>
                                 <p className="App-intro">Acelerando o emagrecimento e o bem estar!</p>
+                                <p className="App-intro">Esse guia é para ser usado apenas durante as 4 semanas do desafio!</p>
+                                <p className="App-intro">Acelera!!!</p>
+                                <NetworkCheck />
                             </div>
                         }
                     </TabContainer>

@@ -1,8 +1,7 @@
 import React, { Component, Fragment } from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import "./App.css";
-
 import ScrollableTabsButtonForce from "./Tab";
+import "./App.css";
 
 class App extends Component {
   render() {

@@ -6,11 +6,11 @@ import {
   ListItemText,
   ExpansionPanel,
   ExpansionPanelSummary,
-  ExpansionPanelDetails
+  ExpansionPanelDetails,
+  withStyles
 } from "@material-ui/core";
 
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { withStyles } from "@material-ui/core/styles";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const styles = theme => ({
   root: {
@@ -24,25 +24,37 @@ const styles = theme => ({
     position: "relative",
     overflow: "auto",
     backgroundColor: theme.palette.background.paper
-  },
-
+  }
 });
 
 const FoodList = props => {
   const { classes, food, backgroundColor, fontColor, typeDescription } = props;
-  console.log(fontColor)
 
   return (
     <Fragment>
       <br />
-      <Typography variant="display1" align="center" gutterBottom >{typeDescription}</Typography>
+      <Typography variant="title" align="center" gutterBottom>
+        {typeDescription}
+      </Typography>
       <br />
       {food.map((item, index) => (
         <ExpansionPanel key={index}>
-          <ExpansionPanelSummary style={backgroundColor} expandIcon={<ExpandMoreIcon />}>
-            <Typography component="h5" variant="title" style={fontColor}>
-              {item.category}
-            </Typography>
+          <ExpansionPanelSummary
+            style={backgroundColor}
+            expandIcon={<ExpandMoreIcon />}
+          >
+            <div className="category-food">
+              <img src={item.icon} className="Svg-icon" alt="IconFood" />
+              <Typography
+                className="Svg-text"
+                component="h5"
+                variant="title"
+                style={fontColor}
+              >
+                {" "}
+                {item.category}{" "}
+              </Typography>
+            </div>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <List component="nav" className={classes.listagem}>
