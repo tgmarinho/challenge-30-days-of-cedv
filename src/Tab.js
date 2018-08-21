@@ -72,9 +72,9 @@ class ScrollableTabsButtonForce extends React.Component {
 
                     </Tabs>
                 </AppBar>
-                {value === 0 && <TabContainer>{<FoodList food={ACELERADORES} />}</TabContainer>}
-                {value === 1 && <TabContainer>{<FoodList food={MODERADORES} />}</TabContainer>}
-                {value === 2 && <TabContainer>{<FoodList food={RETARDADORES} />} </TabContainer>}
+                {value === 0 && <TabContainer>{<FoodList food={ACELERADORES} backgroundColor={{ backgroundColor: "#00E676" }} />}</TabContainer>}
+                {value === 1 && <TabContainer>{<FoodList food={MODERADORES} backgroundColor={{ backgroundColor: "#FFEE58"}} />}</TabContainer>}
+                {value === 2 && <TabContainer>{<FoodList food={RETARDADORES} backgroundColor={{ backgroundColor: "#FF7043"}} />} </TabContainer>}
                 {value === 3 && <TabContainer>Semana 1</TabContainer>}
 
             </div>

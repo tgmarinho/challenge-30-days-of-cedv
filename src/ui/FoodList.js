@@ -1,68 +1,63 @@
 import React, { Fragment } from "react";
-import FoodName from "./FoodName";
-// import { ListItem, ListItemText, Checkbox, Paper } from "@material-ui/core";
+import {
+  Typography,
+  List,
+  ListItem,
+  ListItemText,
+  ExpansionPanel,
+  ExpansionPanelSummary,
+  ExpansionPanelDetails
+} from "@material-ui/core";
+
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { withStyles } from "@material-ui/core/styles";
 
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
-import ListSubheader from "@material-ui/core/ListSubheader";
-
 const styles = theme => ({
-    root: {
-        width: "100%",
-        // maxWidth: 360,
-        backgroundColor: theme.palette.background.paper,
-        position: "relative",
-        overflow: "auto",
-        // maxHeight: 300
-    },
-    listSection: {
-        backgroundColor: "inherit"
-    },
-    ul: {
-        backgroundColor: "inherit",
-        padding: 0
-    }
+  root: {
+    width: "100%",
+    backgroundColor: theme.palette.background.paper,
+    position: "relative",
+    overflow: "auto"
+  },
+  listagem: {
+    width: "100%",
+    position: "relative",
+    overflow: "auto",
+    backgroundColor: theme.palette.background.paper
+  },
+  expansionPanelSummary: {
+    backgroundColor: "red",
+  }
 });
 
-const FoodList = (props) => {
-    const { classes, food } = props
-    console.log(food);
+const FoodList = props => {
+  const { classes, food, backgroundColor } = props;
+  console.log(backgroundColor);
 
-    // for (let i in  food ) {
-    //     console.log(items[i].category);
-    //   }
-
-    return (
-        <List className={classes.root} subheader={<li />}>
-          {food.map((item, index) => (
-            <li key={`section-${index}`} className={classes.listSection}>
-              <ul className={classes.ul}>
-                <ListSubheader>{item.category}</ListSubheader>
-                {item.items.map((item,index) => (
-                  <ListItem key={`item-${item}-${index}`}>
+  return (
+    <Fragment>
+      {food.map((item, index) => (
+        <ExpansionPanel key={index}>
+          <ExpansionPanelSummary style={backgroundColor} expandIcon={<ExpandMoreIcon />}>
+            <Typography variant="title" className={classes.heading}>
+              {item.category}
+            </Typography>
+          </ExpansionPanelSummary>
+          <ExpansionPanelDetails>
+            <List component="nav" className={classes.listagem}>
+              {item.items.map((item, index) => (
+                <ListItem button>
+                  <Typography variant="subheading">
                     <ListItemText primary={item.name} />
-                  </ListItem>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </List>
-      );
-
-    // return food.map((item, index) => (
-
-    //     <div key={index} >
-    //         <Paper className="food-acelerator">
-    //             <ListItem>
-    //                 <ListItemText primary={item.category} />
-    //                 <FoodName names={item.items} />
-    //             </ListItem>
-    //         </Paper>
-    //     </div>
-
-    // ));
+                  </Typography>
+                </ListItem>
+              ))}
+            </List>
+          </ExpansionPanelDetails>
+        </ExpansionPanel>
+      ))}
+    </Fragment>
+  );
 };
 
 export default withStyles(styles)(FoodList);
